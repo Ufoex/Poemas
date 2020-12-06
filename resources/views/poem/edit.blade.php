@@ -2,3 +2,4 @@
 @section('content')
     <app-component/>
 @endsection
+//

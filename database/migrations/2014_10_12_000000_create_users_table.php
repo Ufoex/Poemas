@@ -9,7 +9,7 @@ class CreateUsersTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return void//
      */
     public function up()
     {
@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
     }
-
+//
     /**
      * Reverse the migrations.
      *
@@ -33,3 +33,7 @@ class CreateUsersTable extends Migration
         Schema::dropIfExists('users');
     }
 }
+//
+//
+//
+//
